@@ -42,7 +42,8 @@ function Browser({
             />
           );
         })}
-        {displayedCars.length === 0 && (
+        {cars.length === 0 && <h3>Loading...</h3>}
+        {cars.length > 0 && displayedCars.length === 0 && (
           <p className="text-slate-400">No cars match your filter</p>
         )}
       </div>

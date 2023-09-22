@@ -39,7 +39,7 @@ function FilterPanel({
         });
       })
     );
-  }, [filter]);
+  }, [filter, cars]);
 
   return (
     <Card className="w-1/4 bg-slate-100 rounded-md p-4">
